@@ -17,7 +17,6 @@ class Graph:
 
         visited.add(start)
 
-        # If we reached the destination node
         if start == end:
             return True
 
